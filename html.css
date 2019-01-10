@@ -1,0 +1,49 @@
+h1 {
+    color: black;
+    border-color: purple;
+    border-width: 5px;
+    border-style: solid;
+}
+
+h2 {
+    color: #FF0000;
+    border-color: #505050;
+    border-width: 5px;
+    border-style: solid;
+}
+h3 {
+    color: #FF8000;
+    border: 5px dashed #505050;
+}
+
+h4 {
+     color:rgb(0, 255, 0);
+}
+
+h5 {
+    color:rgb(248, 255, 100);
+}
+
+/* the a for alpha 0 to 1 with 1 being no transparancey */
+h6 {
+    color:rgba(255, 128, 0, .1);
+}
+
+p {
+    background:  green;
+}
+
+div {
+    background:  green;
+}
+
+body {
+    background-image:  url("brickwall.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+label {
+    color: red;
+}

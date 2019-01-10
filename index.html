@@ -1,75 +1,129 @@
- 
- <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <title>My test Document</title>
- </head>
- <body>
-            
-     <p> test <div> test test </div> <span>test test </span></p>
- <a href="http://www.google.com"  >Click me </a>
- <a href="html2.html"  >Click Page 2 </a>
- <table border="1">    
-     <tr>
-        <th>Name</th>
-        <th>Age</th>
-     </tr>
-     <tr>
-         <td>Rusty</td>
-         <td>2</td>
-     </tr>
-     <tr><td>Wyatt</td>
-        <td>13 </td>
-     </tr>
- </table>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My test Document</title>
+</head>
 
+<body>
 
- <table border = "1">    
-<thead>
+    <p> test <div> test test </div> <span>test test </span></p>
+    <a href="http://www.google.com">Click me </a>
+    <a href="html2.html">Click Page 2 </a>
+    <table border="1">
         <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Rusty</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Wyatt</td>
+            <td>13 </td>
+        </tr>
+    </table>
+
+
+
+    <table border="1">
+        <thead>
+            <tr>
                 <th>Name</th>
                 <th>Age</th>
-             </tr>
-             <tr>
-                 <td>Rusty</td> 
-                 <td>2</td>
-             </tr>
-</thead>
-<tbody>
-        <tr>
+            </tr>
+            <tr>
                 <td>Rusty</td>
                 <td>2</td>
             </tr>
-            <tr><td>Wyatt</td>
-               <td>13 </td>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rusty</td>
+                <td>2</td>
             </tr>
-</tbody>
- </table>
- <!-- get default -->
- <form action="http://wikipedia.org" methods="get"> 
-    <!-- <form> -->
+            <tr>
+                <td>Wyatt</td>
+                <td>13 </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- get default -->
+    <form action="http://wikipedia.org" methods="get">
+        <!-- <form> -->
 
-<p></p>
-<label for = "testid" > Test id: </label>
+        <p></p>
+        <label for="testid"> Test id: </label>
 
 
-<input type = "color">
-<input type = "radio">
-<input id = "testid" type ="text" placeholder="testid">
-<input name = "username" type = "text" placeholder="Name">
-<input name = "password" type = "password" placeholder="password">
- <input type = "submit"></input>
-<p></p>
- <label>
-    Username2:
-    <input name = "username2" type = "text" placeholder="Name2">
-  </label>
+        <input type="color">
+        <input type="radio">
+        <input id="testid" type="text" placeholder="testid">
+        <input name="username" type="text" placeholder="Name">
+        <input name="password" type="password" placeholder="password">
+        <input type="submit"></input>
+        <p></p>
+        <label>
+            Username2:
+            <input name="username2" type="text" placeholder="Name2" required>
+        </label>
+        
+        <p></p>
+        <label>
+            Password2:
+            <input name="password2" type="password" placeholder="Password" required>
+        </label>
 
-</form>
+        <p></p>
+        <label>
+            email:
+            <input name="emailin" type="email" placeholder="email" required>
+        </label>
 
+        <p></p>
+        <label>
+            Username3:
+            <input name="username3" type="text" placeholder="Name3">
+        </label>
+
+        <p></p>
+        <!-- for ties to the id, so no nesting of lables-->
+        <label for="username4">Username4:</label>
+        <input id="username4" type="text" placeholder="Name4">
+        </label>
+
+        <p></p>
+        <input type="checkbox">
+
+        <p>Do you prefer cats or dogs</p>
+        <label for="dogs">Dogs:</label>
+        <input name="petchoice" type="radio" value="dogs">
+        <label for="cats">Cats:</label>
+        <input name="petchoice" type="radio" value="cats">
+
+
+
+        <p></p>
+        <p>Whats your favorite color?</p>
+        <select name="color">
+            <option value=1>Red</option>
+            <option value=2>Orange</option>
+            <option value=3>Yellow</option>
+        </select>
+
+        <p></p>
+        <textarea name="textarea" rows="1" cols="1"></textarea>
+
+        <p></p>
+        <button>Go!</button>
+
+    </form>
+<a href ="html2.html" page2></a>
+<a href="html2.html">Click Page 2 </a>
 </body>
- </html>
+
+</html>
